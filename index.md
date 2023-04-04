@@ -197,91 +197,91 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
             <td>Vowel /a/</td>
             <td>
                 <audio controls>
-                    <source src="./orig/a.wav" type="audio/mpeg">
+                    <source src="orig/a.wav" type="audio/mpeg">
                 </audio>
             </td>
             <td>
                 mel: <audio controls>
-                    <source src="./results_real_all_wav2/a_gen_mel.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_gen_mel.wav" type="audio/mpeg">
                 </audio>
                 mfcc: <audio controls>
-                    <source src="./results_real_all_wav2/a_gen_mfcc.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_gen_mfcc.wav" type="audio/mpeg">
                 </audio>
                 stft: <audio controls>
-                    <source src="./results_real_all_wav2/a_gen_stft.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_gen_stft.wav" type="audio/mpeg">
                 </audio>
                 multi: <audio controls>
-                    <source src="./results_real_all_wav2/a_gen_multiscale.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_gen_multiscale.wav" type="audio/mpeg">
                 </audio>
             </td>
             <td>
                 mel: <audio controls>
-                    <source src="./results_real_all_wav2/a_pso_mel.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_pso_mel.wav" type="audio/mpeg">
                 </audio>
                 mfcc: <audio controls>
-                    <source src="./results_real_all_wav2/a_pso_mfcc.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_pso_mfcc.wav" type="audio/mpeg">
                 </audio>
                 stft: <audio controls>
-                    <source src="./results_real_all_wav2/a_pso_stft.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_pso_stft.wav" type="audio/mpeg">
                 </audio>
                 multi: <audio controls>
-                    <source src="./results_real_all_wav2/a_pso_multiscale.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_pso_multiscale.wav" type="audio/mpeg">
                 </audio>
             </td>
             <td>
                 mel: <audio controls>
-                    <source src="./results_real_all_wav2/a_levenberg-marquardt_mel.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_levenberg-marquardt_mel.wav" type="audio/mpeg">
                 </audio>
                 mfcc: <audio controls>
-                    <source src="./results_real_all_wav2/a_levenberg-marquardt_mfcc.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_levenberg-marquardt_mfcc.wav" type="audio/mpeg">
                 </audio>
                 stft: <audio controls>
-                    <source src="./results_real_all_wav2/a_levenberg-marquardt_stft.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_levenberg-marquardt_stft.wav" type="audio/mpeg">
                 </audio>
                 multi: <audio controls>
-                    <source src="./results_real_all_wav2/a_levenberg-marquardt_multiscale.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_levenberg-marquardt_multiscale.wav" type="audio/mpeg">
                 </audio>
             </td>
             <td>
                 mel: <audio controls>
-                    <source src="./results_real_all_wav2/a_downhill_mel.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_downhill_mel.wav" type="audio/mpeg">
                 </audio>
                 mfcc: <audio controls>
-                    <source src="./results_real_all_wav2/a_downhill_mfcc.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_downhill_mfcc.wav" type="audio/mpeg">
                 </audio>
                 stft: <audio controls>
-                    <source src="./results_real_all_wav2/a_downhill_stft.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_downhill_stft.wav" type="audio/mpeg">
                 </audio>
                 multi: <audio controls>
-                    <source src="./results_real_all_wav2/a_downhill_multiscale.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_downhill_multiscale.wav" type="audio/mpeg">
                 </audio>
             </td>
             <td>
                 mel: <audio controls>
-                    <source src="./results_real_all_wav2/a_cma-es_mel.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_cma-es_mel.wav" type="audio/mpeg">
                 </audio>
                 mfcc: <audio controls>
-                    <source src="./results_real_all_wav2/a_cma-es_mfcc.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_cma-es_mfcc.wav" type="audio/mpeg">
                 </audio>
                 stft: <audio controls>
-                    <source src="./results_real_all_wav2/a_cma-es_stft.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_cma-es_stft.wav" type="audio/mpeg">
                 </audio>
                 multi: <audio controls>
-                    <source src="./results_real_all_wav2/a_cma-es_multiscale.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_cma-es_multiscale.wav" type="audio/mpeg">
                 </audio>
             </td>
             <td>
                 mel: <audio controls>
-                    <source src="./results_real_all_wav2/a_nn_mel.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_nn_mel.wav" type="audio/mpeg">
                 </audio>
                 mfcc: <audio controls>
-                    <source src="./results_real_all_wav2/a_nn_mfcc.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_nn_mfcc.wav" type="audio/mpeg">
                 </audio>
                 stft: <audio controls>
-                    <source src="./results_real_all_wav2/a_nn_stft.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_nn_stft.wav" type="audio/mpeg">
                 </audio>
                 multi: <audio controls>
-                    <source src="./results_real_all_wav2/a_nn_multiscale.wav" type="audio/mpeg">
+                    <source src="results_real_all_wav2/a_nn_multiscale.wav" type="audio/mpeg">
                 </audio>
             </td>
         </tr>
