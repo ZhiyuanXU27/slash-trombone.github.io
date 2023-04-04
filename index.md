@@ -14,7 +14,6 @@
 ## Pink Trombone audios without variation with Gaussian Noise (3.2.2)
 
 PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
-
 <div class='figure'>
     <table>
         <tbody>
@@ -63,8 +62,6 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
         </tbody>
     </table>
 </div>    
-
-
 
 ## Pink Trombone audios with variation (3.2.3)
 <div class='figure'>
