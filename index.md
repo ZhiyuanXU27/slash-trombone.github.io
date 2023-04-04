@@ -26,10 +26,10 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
             </tr>
             <tr>
                 <td>original</td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+                <td><audio controls=''><source src='noise_orig/noisy_3_40db.wav'></audio></td>
+                <td><audio controls=''><source src='noise_orig/noisy_3_20db.wav'></audio></td>
+                <td><audio controls=''><source src='noise_orig/noisy_3_0db.wav'></audio></td>
+                <td><audio controls=''><source src='noise_orig/noisy_3_-10db.wav'></audio></td>
             </tr>
             <tr>
                 <td>NN_mel</td>
