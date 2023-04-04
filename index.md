@@ -51,7 +51,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_gen_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>GA_multiscale</td>
+                <td>GA_multi</td>
                 <td><audio controls=''><source src='results_real_all_wav2/a_gen_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/o_gen_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_gen_multiscale.wav'></audio></td>
@@ -75,7 +75,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_pso_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>PSO_multiscale</td>
+                <td>PSO_multi</td>
                 <td><audio controls=''><source src='results_real_all_wav2/a_pso_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/o_pso_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_pso_multiscale.wav'></audio></td>
@@ -99,7 +99,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_levenberg-marquardt_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>TRF_multiscale</td>
+                <td>TRF_multi/td>
                 <td><audio controls=''><source src='results_real_all_wav2/a_levenberg-marquardt_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/o_levenberg-marquardt_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_levenberg-marquardt_multiscale.wav'></audio></td>
@@ -123,7 +123,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_downhill_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>NM_multiscale</td>
+                <td>NM_multi</td>
                 <td><audio controls=''><source src='results_real_all_wav2/a_downhill_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/o_downhill_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_downhill_multiscale.wav'></audio></td>
@@ -147,7 +147,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_cma-es_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>CMA-ES_multiscale</td>
+                <td>CMA-ES_multi</td>
                 <td><audio controls=''><source src='results_real_all_wav2/a_cma-es_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/o_cma-es_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_cma-es_multiscale.wav'></audio></td>
@@ -171,7 +171,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_nn_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>NN_multiscale</td>
+                <td>NN_multi</td>
                 <td><audio controls=''><source src='results_real_all_wav2/a_nn_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/o_nn_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real_all_wav2/yawn5_nn_multiscale.wav'></audio></td>
