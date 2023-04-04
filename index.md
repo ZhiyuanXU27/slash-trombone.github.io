@@ -34,31 +34,31 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
             </tr>
             <tr>
                 <td>NN_mel</td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_mel.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_mel.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_mel.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_mel.wav'></audio></td>
             </tr>
             <tr>
                 <td>NN_mfcc</td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_mfcc.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_mfcc.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_mfcc.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_mfcc.wav'></audio></td>
             </tr>
             <tr>
                 <td>NN_stft</td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_stft.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_stft.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_stft.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>NN_multil</td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
-                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+                <td>NN_multi</td>
+                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_multi.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_multi.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_multi.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_multi.wav'></audio></td>
             </tr>
         </tbody>
     </table>
