@@ -181,19 +181,18 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
 ## Real audios (3.2.3)
 <div class="figure">
     <table>
-        <thead>
-        <tr>
-            <th>Sample Name</th>
-            <th>Orig</th>
-            <th>GA</th>
-            <th>PSO</th>
-            <th>TRF</th>
-            <th>NM</th>
-            <th>CMA-ES</th>
-            <th>NN</th>
-        </tr>
-        </thead>
         <tbody>
+        <tr>
+            <td>Sample Name</td>
+            <td>Orig</td>
+            <td>GA</td>
+            <td>PSO</td>
+            <td>TRF</td>
+            <td>NM</td>
+            <td>CMA-ES</td>
+            <td>NN</td>
+        </tr>
+        
         <tr>
             <td>Vowel /a/</td>
             <td>
