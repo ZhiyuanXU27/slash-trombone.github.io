@@ -2,7 +2,9 @@
 
 #### Authors: Mateo Cámara, Zhiyuan Xu, Yisu Zong, and David Südholt.
 
-#### Abstract: The abstract...
+#### Abstract: We present a systematic methodology to evaluate the synthesis capability of a simplified model of the vocal tract on non-speech human sounds. The Pink Trombone (PT) model, known for its simplicity and efficiency, is used as a case study. Yawning sounds are used as the non-speech signal of interest. We estimate the control parameters to minimize the difference between real and generated audio. The articulatory parameters are optimized using three strategies: genetic models, neural networks, and derivative-free approximations. We also validated several popular quality metrics as error objective functions. We compared the results in terms of error committed and computational demand. The insights can serve as a benchmark to validate other physical models and signal types.
+
+#### Data: In this paper, six methods have been applied to regenerate human sounds, while each of them has tried 4 different representation of sounds. If you are interested in all the regenerated audio samples, you can find it [here](). And if you are looking for the [Pink Trombone](https://dood.al/pinktrombone/) generated dataset to train neural network, you can find it [here]().
 
 ## Pink Trombone audios without variation (3.2.1)
 
@@ -13,6 +15,54 @@
 
 PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
 
+<div class='figure'>
+    <table>
+        <tbody>
+            <tr>
+                <th></th>    
+                <th>40dB</th> 
+                <th>20dB</th>
+                <th>0dB</th>
+                <th>-10dB</th>
+            </tr>
+            <tr>
+                <td>original</td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NN_mel</td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NN_mfcc</td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NN_stft</td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NN_multil</td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_40db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_20db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_0db.wav'></audio></td>
+                <td><audio controls=''><source src='noisy_orig/noisy_3_-10db.wav'></audio></td>
+            </tr>
+        </tbody>
+    </table>
+</div>    
 
 
 
