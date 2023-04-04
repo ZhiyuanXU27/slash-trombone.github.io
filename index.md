@@ -179,7 +179,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
 </div>
 
 ## Real audios (3.2.3)
-<div class='figure'>
+
 <table>
     <thead>
     <tr>
@@ -1402,9 +1402,6 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
         </audio>
         </td>
     </tr>
-
-
-    <!-- Add 12 more rows here -->
     </tbody>
 </table>
-</div>
+
