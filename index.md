@@ -372,4 +372,8 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
         
         
         
-## Pink Trombone audios with variation (4.2)        
+## Some Interesting trials
+#### Trial One
+Based on the outputs of optimization, which are the values of each control parameter, we not only fed it back to Pink Trombone to generate audio, GIF files are also generated to see how each part of vocal tract moves. For example, the GIF file of a yawn is shown below. (Movements have been slown down to catch details)
+<audio controls=''><source src='others/yawn5.wav'></audio>
+![image](https://github.com/ZhiyuanXU27/xzypt.github.io/blob/main/others/yawn5.gif)
