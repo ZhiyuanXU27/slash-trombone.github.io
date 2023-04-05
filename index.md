@@ -8,9 +8,13 @@
 
 ## Pink Trombone audios without variation (4.1)
 
-Since the performance of each method in this part can be objectively computed, and all methods perform very well in regenerating Pink Trombone audios, we only take a few examples as an example.
-original 1: <audio controls=''><source src='others/pt_orig_1.wav'></audio> regenerated 1: <audio controls=''><source src='others/pt_regen_1.wav'></audio>
-original 2: <audio controls=''><source src='others/pt_orig_2.wav'></audio> regenerated 2: <audio controls=''><source src='others/pt_regen_2.wav'></audio>
+#### All methods perform very well in predicting articulatory parameters, the result is shown in the table below. Since the performance of each method can be objectively computed, we only take a few examples as an example.
+
+<img src='others/pt_audio_table.png'/>
+
+#### original 1: <audio controls=''><source src='others/pt_orig_1.wav'></audio> regenerated 1: <audio controls=''><source src='others/pt_regen_1.wav'></audio>
+
+#### original 2: <audio controls=''><source src='others/pt_orig_2.wav'></audio> regenerated 2: <audio controls=''><source src='others/pt_regen_2.wav'></audio>
 
 
 ## Pink Trombone audios without variation with Gaussian Noise (4.1)
