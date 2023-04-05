@@ -374,6 +374,11 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
         
 ## Some Interesting trials
 #### Trial One
-Based on the outputs of optimization, which are the values of each control parameter, we not only fed it back to Pink Trombone to generate audio, GIF files are also generated to see how each part of vocal tract moves. For example, the GIF file of a yawn is shown below. (Movements have been slown down to catch details)
+#### Based on the outputs of optimization, which are the values of each control parameter, we not only fed it back to Pink Trombone to generate audio, GIF files are also generated to see how each part of vocal tract moves. 
+#### For example, the GIF file of a yawn is shown below. (Movements have been slown down to catch details)
 <audio controls=''><source src='others/yawn5.wav'></audio>
 ![image](https://github.com/ZhiyuanXU27/xzypt.github.io/blob/main/others/yawn5.gif)
+#### Trial Two
+#### We tried NN_stft on regenerating a Chinese song which was popular on TikTok.
+Original version: <audio controls=''><source src='others/chinese-man-singing.wav'></audio>
+Regenerated version: <audio controls=''><source src='others/chinese-man-singing_regen.wav'></audio>
