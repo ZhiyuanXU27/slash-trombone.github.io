@@ -26,38 +26,178 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
             </tr>
             <tr>
                 <td>original</td>
-                <td><audio controls=''><source src='noise_orig/noisy_3_40db.wav'></audio></td>
-                <td><audio controls=''><source src='noise_orig/noisy_3_20db.wav'></audio></td>
-                <td><audio controls=''><source src='noise_orig/noisy_3_0db.wav'></audio></td>
-                <td><audio controls=''><source src='noise_orig/noisy_3_-10db.wav'></audio></td>
+                <td><audio controls=''><source src='orig_noise/noisy_0_40db.wav'></audio></td>
+                <td><audio controls=''><source src='orig_noise/noisy_0_20db.wav'></audio></td>
+                <td><audio controls=''><source src='orig_noise/noisy_0_0db.wav'></audio></td>
+                <td><audio controls=''><source src='orig_noise/noisy_0_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>GA_mel</td>
+                <td><audio controls=''><source src='results_noise/0_gen_mel_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_mel_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_mel_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_mel_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>GA_mfcc</td>
+                <td><audio controls=''><source src='results_noise/0_gen_mfcc_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_mfcc_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_mfcc_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_mfcc_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>GA_stft</td>
+                <td><audio controls=''><source src='results_noise/0_gen_stft_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_stft_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_stft_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_stft_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>GA_multiscale</td>
+                <td><audio controls=''><source src='results_noise/0_gen_multiscale_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_multiscale_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_multiscale_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_gen_multiscale_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>PSO_mel</td>
+                <td><audio controls=''><source src='results_noise/0_pso_mel_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_mel_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_mel_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_mel_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>PSO_mfcc</td>
+                <td><audio controls=''><source src='results_noise/0_pso_mfcc_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_mfcc_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_mfcc_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_mfcc_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>PSO_stft</td>
+                <td><audio controls=''><source src='results_noise/0_pso_stft_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_stft_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_stft_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_stft_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>PSO_multiscale</td>
+                <td><audio controls=''><source src='results_noise/0_pso_multiscale_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_multiscale_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_multiscale_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_pso_multiscale_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>TRF_mel</td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mel_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mel_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mel_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mel_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>TRF_mfcc</td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mfcc_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mfcc_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mfcc_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_mfcc_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>TRF_stft</td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_stft_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_stft_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_stft_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_stft_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>TRF_multiscale</td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_multiscale_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_multiscale_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_multiscale_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_levenberg-marquardt_multiscale_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NM_mel</td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mel_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mel_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mel_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mel_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NM_mfcc</td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mfcc_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mfcc_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mfcc_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_mfcc_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NM_stft</td>
+                <td><audio controls=''><source src='results_noise/0_downhill_stft_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_stft_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_stft_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_stft_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>NM_multiscale</td>
+                <td><audio controls=''><source src='results_noise/0_downhill_multiscale_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_multiscale_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_multiscale_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_downhill_multiscale_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>CMA-ES_mel</td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mel_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mel_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mel_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mel_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>CMA-ES_mfcc</td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mfcc_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mfcc_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mfcc_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_mfcc_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>CMA-ES_stft</td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_stft_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_stft_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_stft_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_stft_-10db.wav'></audio></td>
+            </tr>
+            <tr>
+                <td>CMA-ES_multiscale</td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_multiscale_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_multiscale_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_multiscale_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_cma-es_multiscale_-10db.wav'></audio></td>
             </tr>
             <tr>
                 <td>NN_mel</td>
-                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_mel.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_mel.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_mel.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_mel.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mel_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mel_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mel_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mel_-10db.wav'></audio></td>
             </tr>
             <tr>
                 <td>NN_mfcc</td>
-                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_mfcc.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_mfcc.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_mfcc.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_mfcc.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mfcc_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mfcc_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mfcc_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_mfcc_-10db.wav'></audio></td>
             </tr>
             <tr>
                 <td>NN_stft</td>
-                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_stft.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_stft.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_stft.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_stft.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_stft_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_stft_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_stft_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_stft_-10db.wav'></audio></td>
             </tr>
             <tr>
-                <td>NN_multi</td>
-                <td><audio controls=''><source src='results_noise/noisy_3_40db_nn_multi.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_20db_nn_multi.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_0db_nn_multi.wav'></audio></td>
-                <td><audio controls=''><source src='results_noise/noisy_3_-10db_nn_multi.wav'></audio></td>
+                <td>NN_multiscale</td>
+                <td><audio controls=''><source src='results_noise/0_nn_multiscale_40db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_multiscale_20db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_multiscale_0db.wav'></audio></td>
+                <td><audio controls=''><source src='results_noise/0_nn_multiscale_-10db.wav'></audio></td>
             </tr>
         </tbody>
     </table>
@@ -78,9 +218,9 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
             </tr>
             <tr>
                 <td>original</td>
-                <td><audio controls=''><source src='real_orig/a.wav'></audio></td>
-                <td><audio controls=''><source src='real_orig/o.wav'></audio></td>
-                <td><audio controls=''><source src='real_orig/yawn1.wav'></audio></td>
+                <td><audio controls=''><source src='orig_real/a.wav'></audio></td>
+                <td><audio controls=''><source src='orig_real/o.wav'></audio></td>
+                <td><audio controls=''><source src='orig_real/yawn1.wav'></audio></td>
             </tr>
             <tr>
                 <td>GA_mel</td>
@@ -101,7 +241,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real/yawn1_gen_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>GA_multi</td>
+                <td>GA_multiscale</td>
                 <td><audio controls=''><source src='results_real/a_gen_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/o_gen_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/yawn1_gen_multiscale.wav'></audio></td>
@@ -125,7 +265,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real/yawn1_pso_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>PSO_multi</td>
+                <td>PSO_multiscale</td>
                 <td><audio controls=''><source src='results_real/a_pso_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/o_pso_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/yawn1_pso_multiscale.wav'></audio></td>
@@ -149,7 +289,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real/yawn1_levenberg-marquardt_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>TRF_multi/td>
+                <td>TRF_multiscale</td>
                 <td><audio controls=''><source src='results_real/a_levenberg-marquardt_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/o_levenberg-marquardt_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/yawn1_levenberg-marquardt_multiscale.wav'></audio></td>
@@ -173,7 +313,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real/yawn1_downhill_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>NM_multi</td>
+                <td>NM_multiscale</td>
                 <td><audio controls=''><source src='results_real/a_downhill_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/o_downhill_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/yawn1_downhill_multiscale.wav'></audio></td>
@@ -197,7 +337,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real/yawn1_cma-es_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>CMA-ES_multi</td>
+                <td>CMA-ES_multiscale</td>
                 <td><audio controls=''><source src='results_real/a_cma-es_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/o_cma-es_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/yawn1_cma-es_multiscale.wav'></audio></td>
@@ -221,7 +361,7 @@ PLEASE MIND THE VOLUME, IT COULD BE VERY LOUD
                 <td><audio controls=''><source src='results_real/yawn1_nn_stft.wav'></audio></td>
             </tr>
             <tr>
-                <td>NN_multi</td>
+                <td>NN_multiscale</td>
                 <td><audio controls=''><source src='results_real/a_nn_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/o_nn_multiscale.wav'></audio></td>
                 <td><audio controls=''><source src='results_real/yawn1_nn_multiscale.wav'></audio></td>
